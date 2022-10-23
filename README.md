@@ -1,8 +1,31 @@
-# Getting Started with Create React App
+# Title
+Incite. A minimalist record management tool for ToolHub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project was inspired by a similar tool for wikipedia which allows users to search for missing citations
+across wikimedia and add them straight from Incite
 
-## Available Scripts
+## Key Features
+The key features for this web application are :
+1. Integrated minimalist UI components across all web pages
+2. A Navigation bar containing links to other pages within the web application
+3. A search tool for searching and addiing missing citations
+4. A Leaderboard for comparing loggers scores
+5. A dashboard that shows analytics reports relevant to the user
+
+### System Minimum Requirements
+Windows 8/10/11
+linux 10/11
+Core intel
+1gb ram
+120mb disk space
+
+
+### Packages Used
+
+This project was bootstrapped with React.
+
+### SetUp Instructions: Available Scripts
 
 In the project directory, you can run:
 
