@@ -1,6 +1,9 @@
 # Title
 Incite. A minimalist record management tool for ToolHub
 
+### for a quick preview:
+https://incitetoolhub.netlify.app/
+
 ## Overview
 This project was inspired by a similar tool for wikipedia which allows users to search for missing citations
 across wikimedia and add them straight from Incite
