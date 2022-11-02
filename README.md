@@ -1,7 +1,7 @@
 # Title
 Incite. A minimalist record management tool for ToolHub
 
-### for a quick preview:
+### updated link for a quick preview:
 https://incitetoolhub.netlify.app/
 
 ## Overview
