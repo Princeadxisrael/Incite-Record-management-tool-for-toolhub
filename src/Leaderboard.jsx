@@ -1,7 +1,7 @@
 import React from "react";
 import "./leaderboard.css";
 import Nav from "./components/Nav";
-import { leaderboardlist} from "./util/leaderboardlist";
+import { leaderboardlist } from "./util/leaderboardlist";
 
 export default function Leaderboard() {
   return (
@@ -15,7 +15,7 @@ export default function Leaderboard() {
 
       <table id="table">
         <caption>
-        Loggers Ranking. Thank you for using Toolhub, and come 🔙 anytime!
+          Loggers Ranking. Thank you for using Toolhub, and come 🔙 anytime!
         </caption>
         <thead>
           <tr>
@@ -24,12 +24,16 @@ export default function Leaderboard() {
           </tr>
         </thead>
         <tbody>
-          {leaderboardlist.sort.((currentValue, nextValue=> nextValue.score-currentValue.score)).map((value, index) => (
-            <tr>
-              <td>{value.userName}</td>
-              <td>{value.score}</td>
-            </tr>
-          ))}
+          {leaderboardlist
+            .sort(
+              (currentValue, nextValue) => nextValue.score - currentValue.score
+            )
+            .map((value, index) => (
+              <tr>
+                <td>{value.userName}</td>
+                <td>{value.score}</td>
+              </tr>
+            ))}
         </tbody>
       </table>
     </div>

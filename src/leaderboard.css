@@ -1,27 +1,18 @@
-table,
-th,
-td {
-  margin: 0px 2px;
-  border: 1px solid;
+table {
+  table-layout: auto;
   width: 100%;
   border-collapse: collapse;
-}
-
-td {
-  padding: 5px;
-  text-align: left;
+  border: none;
+  margin-top: 50px;
 }
 
 th {
-  height: 40px;
-  border: none;
+  text-align: center;
+  width: 50%;
 }
 
-tr:hover {
-  background-color: #e5e5e5;
-  transition: background-color 0.5s;
-}
-
-.user {
-  width: 80px;
+td {
+  text-align: center;
+  width: 50%;
+  padding: 3px;
 }
